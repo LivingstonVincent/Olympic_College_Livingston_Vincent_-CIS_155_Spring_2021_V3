@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--M1LO6-->
+
+<head>
+
+	<!--
+    Name: Livingston Vincent
+    Date: 4/25/2021
+    Course: CIS 155
+    Instructor: Linda Epps
+    Assignment: M02: Project V1 - Basic HTML and CSS
+-->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | I Am Yoki</title>
+<link rel="icon" href="img/Yoki.jpg" type="image/png" sizes="16x16">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+	<!--M1LO6-->
+	<!-- CSS class selector -->
+	<!--M2LO6-->
+	<nav>
+		<div class="logo">
+			<a href="index.html">
+				<img class="logo" src="img/Yoki.jpg">
+			</a>
+		</div>
+		<ul class="nav-links">
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="team.html">Team</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+		</ul>
+		<div class="burger" onclick="showmenu()">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</nav>
+
+	<div class="wrapper">
+		<div class="center">
+			<h1>Good Morning!</h1>
+			<!--M1LO6-->
+			<h2>Welcome To My Home!</h2>
+			<!--M1L013-->
+			<!--M1LO7-->
+		</div>
+
+		<div class="post-area">
+			<div class="right-p-area">
+				<div class="new">
+					<p class="news-heading">Breaking News</p>
+					<h3><span class="stript">"Yoki Gone Wild!&nbsp;"</span> Catch Him While You Still Can!</h3>
+					<div class="video-link">
+						<a href="https://www.twitch.tv/videos/985426369?filter=all&sort=time">TWITCH</a>
+					</div>
+				</div>
+			</div>
+			<div class="left-p-area">
+				<div class="latest-upload">
+					<p class="title">IT'S ME! YOKI!</p>
+					<div class="card">
+						<div class="video-bg"></div>
+						<div class="upload-text">
+							<p class="description">It is a long established fact that a reader will be distracted by the
+							readable content of a page when looking at its layout.</p>
+							<div class="subcription-link">
+								<a href="https://www.youtube.com/channel/UCoITY1IjCL59q16w7yED4Ww/featured">SUBSCRIBE
+								3M</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- CSS id -->
+
+	<div id="partners" class="screen-width">
+		<!-- Images -->
+		<div class="partner">
+			<img src="img/Discord-Logo.png">
+		</div>
+		<div class="partner">
+			<img src="img/Laracus Twitch Logo.png">
+		</div>
+		<div class="partner">
+			<img src="img/Discord-Logo.png">
+		</div>
+		<div class="partner">
+			<img src="img/Laracus Twitch Logo.png">
+		</div>
+		<div class="partner">
+			<img src="img/Discord-Logo.png">
+		</div>
+	</div>
+	<div class="screen-width video-div">
+		<h2>VIDEOS</h2>
+		<a href="https://www.youtube.com/channel/UCoITY1IjCL59q16w7yED4Ww/videos"><button>watch more</button></a>
+		<div class="video-blog">
+			<div class="blog-series">
+				<!-- inline background image -->
+				<div class="v-blog-1 blog-background" style="background-image: url('img/v1.jpg');">
+					<!-- CSS attribute selector -->
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/-pghhbzhJBM"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				</div>
+				<div class="blog-content">
+					<p class="description">Scamming Minorities...with this Title XD - Human Fall Flat</p>
+				</div>
+			</div>
+			<div class="blog-series">
+				<!-- inline background image -->
+				<div class="v-blog-2 blog-background" style="background-image: url('img/v2.jpg');">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/EOeVGtpU63k"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				</div>
+				<div class="blog-content">
+					<p class="description">
+					Let's Fail [1] : Super's How To D-Duel Tutorial</p>
+				</div>
+
+			</div>
+			<div class="blog-series">
+				<!-- inline background image -->
+
+				<div class="v-blog-3 blog-background" style="background-image: url('img/v3.jpg');">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/7C8JUGWM7_U"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				</div>
+				<div class="blog-content">
+					<p class="description">Time To Shake & Bake Boys! - Project GTA Cancer w/Yoki & Friends</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- inline background image -->
+
+	<div class="yoki" style="background-image: url('img/premiumProductsBG.png');">
+		<!-- <div class="men">
+			<img src="img/gun.png">
+		</div> -->
+		<div class="men-content">
+			<h2>ABOUT <span>YOKI</span>
+			</h2>
+			<p>Gentleman. Scholar. Youtuber. Smartass.</p>
+			<a href="https://www.twitch.tv/yoki_kage">learn more</a>
+		</div>
+	</div>
+	<div class="screen-width footer-div">
+		<div class="footer-img">
+			<img src="img/Discord-Logo.png">
+		</div>
+		<div class="copyright">
+			<p>&copy; 2021 All rights reserved, YOKI</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+
+		function showmenu() 
+		{
+			$(".nav-links").toggle('slow'); 
+		}
+
+	</script>
+</body>
+
+</html>

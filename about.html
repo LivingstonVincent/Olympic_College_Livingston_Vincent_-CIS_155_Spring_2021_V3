@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--
+    Name: Livingston Vincent
+    Date: 4/25/2021
+    Course: CIS 155
+    Instructor: Linda Epps
+    Assignment: M02: Project V1 - Basic HTML and CSS
+  -->
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | I Am Yoki</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+  crossorigin="anonymous" />
+  <link rel="icon" href="img/Yoki.jpg" type="image/png" sizes="16x16">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="js/main.js">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <img class="logo" src="img/Yoki.jpg">
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+
+    <!-- <div class="menu-bar">  
+        <i class="fa fa-bars" onclick="showmenu()"></i> 
+      </div> -->
+
+       <div class="burger" onclick="showmenu()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+      <div class="center about-center">
+        <h1>Good Morning!</h1>
+        <h2>Who Is Yoki?</h2>
+      </div>
+      <div class="about-detail">
+        <div class="about-post">
+          <div class="latest-upload">
+            <p class="title">THIS IS ME!</p>
+            <div class="card">
+              <div class="video-bg"></div>
+              <div class="upload-text">
+                <p class="description">My goal in life is to have fun, have funny moments with friends and overall be a comic relief to my audience.</p>
+                <div class="subcription-link">
+                  <a href="https://www.youtube.com/channel/UCoITY1IjCL59q16w7yED4Ww/featured">SUBSCRIBE 102</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-area">
+        <!-- <div class="social-links">
+          <div class="social-t-d">
+            <div class="icon-width facebook">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+            <p class="followers-num">234</p>
+            <p class="fans fans-first">FANS</p>
+          </div>
+          <div class="social-t-d">
+            <div class="icon-width twitter">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <p class="followers-num">156</p>
+            <p class="fans">FOLLOWERS</p>
+          </div>
+          <div class="social-t-d">
+            <div class="icon-width insta">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <p class="followers-num">134</p>
+            <p class="fans">FOLLOWERS</p>
+          </div>
+          <div class="social-t-d">
+            <div class="icon-width youtube">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </div>
+            <p class="followers-num">102</p>
+            <p class="fans">SUBSCRIBERS</p>
+          </div>
+        </div> -->
+        <div class="table-scrole">
+          <table class="about-table">
+            <thead>
+              <tr>
+                <th>
+                  <div class="icon-width facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <th>
+                  <div class="icon-width twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <th>
+                  <div class="icon-width insta">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <th>
+                  <div class="icon-width youtube">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p class="followers-num">234</p>
+                </td>
+                <td>
+                  <p class="followers-num">156</p>
+                </td>
+                <td>
+                  <p class="followers-num">134</p>
+                </td>
+                <td>
+                  <p class="followers-num">102</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="fans fans-first">FANS</p>
+                </td>
+                <td>
+                  <p class="fans">FOLLOWERS</p>
+                </td>
+                <td>
+                  <p class="fans">FOLLOWERS</p>
+                </td>
+                <td>
+                  <p class="fans">SUBSCRIBERS</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="author-detail">
+          <div class="stat">
+            <h4>NAME</h4>
+            <p class="yoki-answer">YOKI</p>
+            <!-- <p class="yoki-answer">YOKI</p> -->
+          </div>
+          <div class="stat">
+            <h4>FAVORITE FOOD</h4>
+            <p class="yoki-answer">CHINESE</p>
+          </div>
+          <div class="stat">
+            <h4>COUNTRY</h4>
+            <p class="yoki-answer">UNITED STATES</p>
+          </div>
+          <div class="stat">
+            <h4>COUNTRIES VISITED</h4>
+            <p class="yoki-answer">3</p>
+          </div>
+          <div class="stat">
+            <h4>WHAT CLASS I'M IN?</h4>
+            <p class="yoki-answer">CIS 155</p>
+          </div>
+        </div>
+
+      </div>
+      <aside>
+        <blockquote>
+          <p></br>
+            <cite> V1 </cite></br>
+            <cite>&mdash; Added Navbar using unordered lists with 'Home' and 'About' linked. </cite></br>
+            <cite>&mdash; Added Background and logo. </cite></br>
+            <cite>&mdash; Added Heading to 'Home' and 'About'.</cite></br>
+            <cite>&mdash; Added External Links on Home page using ordered lists.</cite></br>
+            <cite>&mdash; Added Blockquotes to contain author details and V1 notes.</cite></br>
+          </p>
+          <p></br>
+            <cite> V2 </cite></br>
+            <cite>&mdash; Updated logo style, adjusted in the menu and rounded it. </cite></br>
+            <cite>&mdash; Added favicon to the browser's tab. </cite></br>
+            <cite>&mdash; Updated heading of pages.</cite></br>
+            <cite>&mdash; Added social links, videos and images among the pages.</cite></br>
+            <cite>&mdash; Added animations on the videos on home page on hover state.</cite></br>
+            <cite>&mdash; Created team page and FAQs.</cite></br>
+            <cite>&mdash; Added copyright message and icon in the footer.</cite></br>
+            <cite>&mdash; Added Blockquotes to V2 notes.</cite></br>
+          </p>  
+          <p></br>
+            <cite> V3 </cite></br>
+            <cite>&mdash; Added media queries to format a page differently for multiple devices. </cite></br>
+            <cite>&mdash; Added drop-down menu. </cite></br>
+            <cite>&mdash; Added flexboxes, its containerds and items in the web pages to make it responsive.</cite></br>
+            <cite>&mdash; Added HTML tables (and also the options thead and tbody and tfooter along with cells using th and td where needed).</cite></br>
+            <cite>&mdash; Added colspan and rowspan on columns and rows on the table.</cite></br>
+            <cite>&mdash; Added CSS properties on table to make it responsive the max we can, but as they are responsive to a level so we added horizontal scroll on small devices.</cite></br>
+          </p> 
+        </blockquote>
+      </aside>
+    </div>
+  </div>
+  <div class="screen-width footer-div">
+    <div class="footer-img">
+      <img src="img/Discord-Logo.png">
+    </div>
+    <div class="copyright">
+      <p>&copy; 2021 All rights reserved, YOKI</p>
+    </div>
+  </div>
+
+  <!-- <script>
+    // const navSlide = () => {
+    //   const burger = document.querySelector('.burger');
+    //   const nav = document.querySelector('.nav-links');
+    //   burger.addEventListener('click', () => {
+    //     nav.classList.toggle('nav-active');
+    //   })
+    // }
+    // navSlide();
+
+//     function showmenu() 
+// {
+//   $(".nav-links").toggle('slow'); 
+// }
+</script> -->
+
+<script type="text/javascript">
+
+  function showmenu() 
+  {
+   $(".nav-links").toggle('slow'); 
+ }
+
+</script>
+</body>
+
+</html>
